@@ -1,0 +1,85 @@
+@font-face {
+  font-family: font-reguler;
+  src: url(asset/Poppins-Regular.ttf);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  font-family: font-reguler;
+  background: #ededed;
+}
+
+.container {
+  padding: 32px 25px;
+  background: white;
+  border-radius: 10px;
+}
+
+.container input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px 10px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: none;
+  border-radius: 10px;
+  border: 1px solid #e7e7e7;
+}
+
+.button input {
+  width: 55px;
+  cursor: pointer;
+  background: #e7e7e7;
+  color: gray;
+}
+
+.button {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.batal input[type="button"] {
+  width: 100%;
+  height: 45px;
+  font-weight: bold;
+  font-size: 9pt;
+  cursor: pointer;
+  color: white;
+  background-color: #6ac5e9;
+}
+
+.batal input[type="button"]:hover {
+  color: #3b484d;
+  background: white;
+  border: 1pzx solid ##858585;
+}
+
+p {
+  margin: 2px 0px 7px 7px;
+  font-size: 8pt;
+  color: #3b484d;
+}
+
+h1 {
+  font-weight: bold;
+  line-height: 25px;
+  letter-spacing: -2px;
+  margin-bottom: 25px;
+  color: #3b484d;
+}
+
+span {
+  color: white;
+  background: #6ac5e9;
+  font-size: 14pt;
+  padding: 2px 7px;
+  border-radius: 10px;
+  letter-spacing: -1px;
+}
