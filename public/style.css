@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 70%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  margin: auto;
+  background: rgb(236, 236, 236);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-card {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+h4 {
+  margin-left: 10px;
+  color: rgb(76, 174, 240);
+  margin: 15px;
+}
+
+#ptitle {
+  margin-left: 10px;
+  width: 200px;
+  line-height: 20px;
+}
+
+.kucing {
+  width: 100%;
+  height: 200px;
+  background: rgb(76, 174, 240);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 500ms ease-in-out;
+}
+
+.kuda {
+  width: 100%;
+  height: 200px;
+  background: rgb(76, 174, 240);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 500ms ease-in-out;
+}
+
+.ayam {
+  width: 100%;
+  height: 200px;
+  background: rgb(76, 174, 240);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 500ms ease-in-out;
+}
+
+.anjing {
+  width: 100%;
+  height: 200px;
+  background: rgb(76, 174, 240);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 500ms ease-in-out;
+}
+
+.burung {
+  width: 100%;
+  height: 200px;
+  background: rgb(76, 174, 240);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 500ms ease-in-out;
+}
+
+.tugas1 {
+  display: block;
+}
+
+.tugas2 {
+  margin-bottom: 50px;
+  width: 100%;
+  margin: auto;
+}
+
+.company {
+  cursor: pointer;
+  margin-top: 20px;
+  text-align: center;
+  padding: 7px 200px;
+  background: rgb(76, 174, 240);
+  border: 1px solid rgb(231, 231, 231);
+  border-radius: 10px 10px 0px 0px;
+}
+
+.visi {
+  cursor: pointer;
+  padding: 7px 400px;
+  background: rgb(76, 174, 240);
+  border: 1px solid rgb(231, 231, 231);
+}
+
+.deskripsi {
+  cursor: pointer;
+  padding: 7px 400px;
+  background: rgb(76, 174, 240);
+  border: 1px solid rgb(231, 231, 231);
+}
+
+h1 {
+  font-size: 17px;
+  margin: 20px 0px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+
+h2 {
+  color: white;
+  line-height: 23px;
+  letter-spacing: 1px;
+  font-size: 12pt;
+  text-align: center;
+}
+
+.company-title {
+  display: none;
+  text-align: justify;
+  background: white;
+  margin: auto;
+  padding: 20px;
+}
+
+.visi-title {
+  display: none;
+  text-align: justify;
+  background: white;
+  margin: auto;
+  padding: 20px;
+}
+
+.deskripsi-title {
+  display: none;
+  text-align: justify;
+  background: white;
+  margin: auto;
+  padding: 20px;
+  margin-bottom: 60px;
+}
+
+p {
+  line-height: 25px;
+}
+
+li {
+  margin-left: 50px;
+}

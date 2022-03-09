@@ -15,7 +15,7 @@ $("document").ready(function () {
       })
       .appendTo("body");
   });
-  $(".kucing").mouseover(function () {
+  $(".kucing").mouseout(function () {
     $(this).css({
       background: "rgb(76, 174, 240)",
     });
@@ -37,7 +37,7 @@ $("document").ready(function () {
       })
       .appendTo("body");
   });
-  $(".kuda").mouseover(function () {
+  $(".kuda").mouseout(function () {
     $(this).css({
       background: "rgb(76, 174, 240)",
     });
@@ -59,7 +59,7 @@ $("document").ready(function () {
       })
       .appendTo("body");
   });
-  $(".ayam").mouseover(function () {
+  $(".ayam").mouseout(function () {
     $(this).css({
       background: "rgb(76, 174, 240)",
     });
@@ -81,7 +81,7 @@ $("document").ready(function () {
       })
       .appendTo("body");
   });
-  $(".anjing").mouseover(function () {
+  $(".anjing").mouseout(function () {
     $(this).css({
       background: "rgb(76, 174, 240)",
     });
@@ -103,9 +103,25 @@ $("document").ready(function () {
       })
       .appendTo("body");
   });
-  $(".burung").mouseover(function () {
+  $(".burung").mouseout(function () {
     $(this).css({
       background: "rgb(76, 174, 240)",
     });
+  });
+
+  // Tugas 2 -------------------------------------
+
+  $(".company").click(function () {
+    $(".company-title ").slideToggle("slow");
+  });
+
+  //---------------------------------------
+  $(".visi").click(function () {
+    $(".visi-title ").slideToggle("slow");
+  });
+
+  //-------------------------------------
+  $(".deskripsi").click(function () {
+    $(".deskripsi-title ").slideToggle("slow");
   });
 });
