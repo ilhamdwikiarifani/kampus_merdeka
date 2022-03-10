@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> rwd_tugas1 -- Kampus Merdeka</title>
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+</head>
+
+<body class="$font-family-monospace">
+  <div class="container-fluid">
+    <!-- header ------------------------------------------------ -->
+    <div class="row">
+      <div class="col-lg-12">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./images/hero-1.jpg" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>SELAMAT DATANG</h5>
+                <p>
+                  Some representative placeholder content for the first slide.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./images/hero-2.jpg" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>TERIMA KASIH</h5>
+                <p>
+                  Some representative placeholder content for the second
+                  slide.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./images/hero-3.jpg" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>HALO</h5>
+                <p>
+                  Some representative placeholder content for the third slide.
+                </p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navbar ----------------------------------------------- -->
+    <div class="row">
+      <div class="col-lg-12">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="#">ilhamdwikiarifani.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled">Disabled</a>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                <button class="btn btn-primary" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Mainbar------------------------------------------------ -->
+    <div class="row mt-5 mb-5">
+      <!-- leftbar--------------------------------------------- -->
+      <div class="col-lg-2">
+        <div class="list-group">
+          <button type="button" class="list-group-item list-group-item-action active" aria-current="true">
+            Sosial Media
+          </button>
+          <button type="button" class="list-group-item list-group-item-action">
+            Instagram
+          </button>
+          <button type="button" class="list-group-item list-group-item-action">
+            Facebook
+          </button>
+          <button type="button" class="list-group-item list-group-item-action">
+            Twitter
+          </button>
+          <button type="button" class="list-group-item list-group-item-action" disabled>
+            Youtube
+          </button>
+        </div>
+      </div>
+      <!-- mainbar ---------------------------------------------- -->
+      <div class="col-lg-8 mt-5 mt-lg-0">
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+          <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
+            type="button" role="tab" aria-controls="nav-home" aria-selected="true">Home</button>
+          <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button"
+            role="tab" aria-controls="nav-profile" aria-selected="false">Pendidikan</button>
+          <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button"
+            role="tab" aria-controls="nav-contact" aria-selected="false">Gallery</button>
+        </div>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade show active p-5 text-justify" id="nav-home" role="tabpanel"
+            aria-labelledby="nav-home-tab">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    Profil
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Nama saya Ilham Dwiki Arifani , Saya lahir di Tulungagung, 04 Agustus 2000. Menempuh pendidikan
+                    dasar pada tahun 2007-2013. Dilanjutkan ke tingkat SMP di tahun 2013-2016. Saya menyelesaikan
+                    pendidikan SMK pada tahun 2019. Selanjutnya saya menempuh pendidikan tinggi di Universitas Bhinneka
+                    PGRI Tulungagung.
+
+                    Sampai saat ini, selain mengambil perkuliahan sebagai pendidikan formal, saya juga mencoba - coba
+                    untuk kerja freelance sebagai desain grafis, dan juga aktif di ikut organisasi di kampus yaitu di
+                    Robotik sebagai programer.
+
+                    Dengan berbekal pendidikan formal yang saya dapat di perkuliahan saya sangat optimis menghadapi
+                    tantangan masa depan.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Pengalaman
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <b>Freelance Graphic Designer</b>
+                    Menjadi seorang Freelancer pada dunia kreatif Multimedia yang menangani pembuatan (Graphic Design)
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Hoby & Favorit
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <li>Hoby
+                      <ol>
+                        <li>Codding
+                          <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                          </ul>
+                        </li>
+
+                        <li>Desain
+                          <ul>
+                            <li>Logo</li>
+                            <li>Sosial Media Konten</li>
+                          </ul>
+                        </li>
+                      </ol>
+                    </li>
+
+                    <br>
+
+                    <li>Favorit Menu
+                      <ol>
+                        <li>Makanan
+                          <ul>
+                            <li>Bakso</li>
+                            <li>Mie Ayam</li>
+                          </ul>
+                        </li>
+
+                        <li>Minuman
+                          <ul>
+                            <li>Es Jeruk</li>
+                            <li>Teh Manis</li>
+                          </ul>
+                        </li>
+                      </ol>
+                    </li>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade p-5 text-justify" id="nav-profile" role="tabpanel"
+            aria-labelledby="nav-profile-tab">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Tahun</th>
+                  <th scope="col">Sekolah</th>
+                  <th scope="col">Nama Sekolah</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>2013-2016</td>
+                  <td>SMP</td>
+                  <td>SMPN 1 Gondang</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>2016-2019</td>
+                  <td>SMK</td>
+                  <td>SMK SORE TULUNGAGUNG</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>2019 - NOW</td>
+                  <td> KULIAH</td>
+                  <td>UNIVERSITAS BHINNEKA PGRI</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="tab-pane fade p-5 text-justify" id="nav-contact" role="tabpanel"
+            aria-labelledby="nav-contact-tab">
+            <div class="d-block d-sm-flex gap-5 ">
+              <div class="card mb-5" style="width: 18rem;">
+                <img src="./images/hero--card1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Daniil Onischenko</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+
+              <div class="card mb-5" style="width: 18rem;">
+                <img src="./images/hero--card2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Anastasia Chazova</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+
+              <div class="card mb-5" style="width: 18rem;">
+                <img src="./images/hero--card3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Leman</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- rightbar---------------------------------------------- -->
+      <div class="col-lg-2 mt-5 mt-lg-0">
+        <ol class="list-group list-group-numbered">
+          <li class="list-group-item d-flex justify-content-between align-items-start bg-primary">
+            <div class="ms-2 me-auto ">
+              <div class="fw-bold text-white">Notifikasi</div>
+
+            </div>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-start">
+            <div class="ms-2 me-auto">
+              <div class="fw-bold">Whatapps</div>
+
+            </div>
+            <span class="badge bg-primary rounded-pill">99+</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-start">
+            <div class="ms-2 me-auto">
+              <div class="fw-bold">Instagram</div>
+
+            </div>
+            <span class="badge bg-primary rounded-pill">4</span>
+          </li>
+
+          <li class="list-group-item d-flex justify-content-between align-items-start">
+            <div class="ms-2 me-auto">
+              <div class="fw-bold">SMS</div>
+
+            </div>
+            <span class="badge bg-primary rounded-pill">2</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-start">
+            <div class="ms-2 me-auto">
+              <div class="fw-bold">Twitter</div>
+
+            </div>
+            <span class="badge bg-primary rounded-pill">16</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-start">
+            <div class="ms-2 me-auto">
+              <div class="fw-bold">Telegram</div>
+
+            </div>
+            <span class="badge bg-primary rounded-pill">67</span>
+          </li>
+        </ol>
+
+      </div>
+    </div>
+    <!-- footer ------------------------------------------------ -->
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="alert alert-primary" role="alert">
+          <h4 class="alert-heading">Well done!</h4>
+          <p>Selamat telah berkunjung di website saya</p>
+          <hr>
+          <p class="mb-0 fw-bold">Created by Ilhamdwikiarifani_UBHI</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
